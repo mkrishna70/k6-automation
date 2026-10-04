@@ -1,0 +1,32 @@
+[
+  {
+    "id": "8647484",
+    "name": "Krishna-update",
+    "email": "Krishna700@test.com",
+    "status": "active"
+  },
+  {
+    "id": "8647486",
+    "name": "Radha-update",
+    "email": "Radha701@test.com",
+    "status": "active"
+  },
+  {
+    "id": "8647483",
+    "name": "Geetha-update",
+    "email": "Geetha702@test.com",
+    "status": "active"
+  },
+  {
+    "id": "8647485",
+    "name": "Ravali-update",
+    "email": "Ravali703@test.com",
+    "status": "inactive"
+  },
+  {
+    "id": "8647482",
+    "name": "arjun-update",
+    "email": "arjun704@test.com",
+    "status": "inactive"
+  }
+]

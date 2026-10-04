@@ -1,0 +1,11 @@
+name,gender,email,status
+blue,female,blue1000@test.com,active
+orange,male,orange1001@test.com,inactive
+green,female,green1002@test.com,active
+black,male,black1003@test.com,inactive
+red,female,red1004@test.com,active
+skyblue,male,skyblue1005@test.com,inactive
+yellow,female,yellow1006@test.com,active
+white,male,white1007@test.com,inactive
+grey,female,grey1008@test.com,active
+indigo,male,indigo1009@test.com,inactive
