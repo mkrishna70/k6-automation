@@ -29,8 +29,8 @@ export default function postCreateUserAPI() {
   // k6 CHECKS: they won't stop the test even if any k6 checks fail - functional testing 
   // k6 thresholds: they will stop the test if any threshold faild - performance testing 
   check(createUserResponse, {
-    "Verify if Response code is 201": (createUserResponse) =>
-      createUserResponse.status == 201,
+    // "Verify if Response code is 201": (createUserResponse) =>
+    //   createUserResponse.status == 201,
 
     "Verify if Response is 201 Created": (createUserResponse) =>
       createUserResponse.status_text == "201 Created",
