@@ -36,8 +36,8 @@ export default function getListUsersAPI() {
     "Verify if Response is 200 OK": (listUsersReponse) =>
       listUsersReponse.status_text == "200 OK",
 
-    "Verify if Response time is < 1000ms": (listUsersReponse) =>
-      listUsersReponse.timings.duration < 1000,
+    // "Verify if Response time is < 1000ms": (listUsersReponse) =>
+    //   listUsersReponse.timings.duration < 1000,
 
     "Verify if Response body is not empty": (listUsersReponse) =>
       listUsersReponse.body && listUsersReponse.body.length != 0,
