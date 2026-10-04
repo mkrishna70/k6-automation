@@ -1,0 +1,34 @@
+name: k6 Load Test
+
+on:
+  push:
+    branches: [ main, staging ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch: # Allows manual trigger from the GitHub Actions UI
+
+jobs:
+  k6-load-test:
+    name: Run k6 Load Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup k6
+        uses: grafana/setup-k6-action@v1
+
+      - name: Run local k6 test
+        uses: grafana/run-k6-action@v1
+        with:
+          path: ./sampleTesting-api.js
+          flags: --vus 1 --duration 2s --out json=results/k6-report.json
+
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v4
+        if: always() # Ensures reports upload even if performance thresholds fail
+        with:
+          name: k6-load-test-results
+          path: results/
+          retention-days: 30
