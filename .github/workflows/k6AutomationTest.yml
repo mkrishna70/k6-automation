@@ -23,7 +23,7 @@ jobs:
         uses: grafana/run-k6-action@v1
         with:
           path: ./sampleTesting-api.js
-          flags: --vus 1 --duration 2s --out json=results/k6-report.json
+          flags: --vus 1 --duration 2s
 
       - name: Upload Test Results
         uses: actions/upload-artifact@v4
