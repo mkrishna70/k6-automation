@@ -4,7 +4,7 @@ import { SharedArray } from "k6/data";
 import { scenario } from "k6/execution";
 
 const TOKEN =
-  "79813c3137460d942bef8d7536435c8bdab5ba3e57b23e24c2b950f911074025";
+  "79813c5";
 
 export const options = {
   vus: 5,
