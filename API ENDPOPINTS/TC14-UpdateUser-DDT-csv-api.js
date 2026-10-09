@@ -5,7 +5,7 @@ import { scenario } from "k6/execution";
 import papaparse from "https://jslib.k6.io/papaparse/5.1.1/index.js";
 
 const TOKEN =
-  "79813c3137460d942bef8d7536435c8bdab5ba3e57b23e24c2b950f911074025";
+  "79813c3137460d5";
 
 export const options = {
   vus: 10,
