@@ -5,7 +5,7 @@ import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporte
 
 const BASE_API = "https://gorest.co.in/public/v2/users";
 const TOKEN =
-  "79813c3137460d942bef8d7536435c8bdab5ba3e57b23e24c2b950f911074025";
+  "79813c31374";
 
 const payLoad = JSON.stringify({
   name: faker.name.firstName(),
