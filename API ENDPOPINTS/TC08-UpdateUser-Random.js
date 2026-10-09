@@ -3,7 +3,7 @@ import { randomString } from "https://jslib.k6.io/k6-utils/1.2.0/index.js";
 
 const BASE_API = "https://gorest.co.in/public/v2/users/8643368";
 const TOKEN =
-  "79813c3137460d942bef8d7536435c8bdab5ba3e57b23e24c2b950f911074025";
+  "79813c3137460d942bef874025";
 
 const payLoad = JSON.stringify({
   name: randomString(8),
