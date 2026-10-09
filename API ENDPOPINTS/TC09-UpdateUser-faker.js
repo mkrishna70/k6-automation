@@ -3,7 +3,7 @@ import faker from "https://cdnjs.cloudflare.com/ajax/libs/Faker/3.0.1/faker.min.
 
 const BASE_API = "https://gorest.co.in/public/v2/users/8642788";
 const TOKEN =
-  "79813c3137460d942bef8d7536435c8bdab5ba3e57b23e24c2b950f911074025";
+  "79813c3137460";
 
 const payLoad = JSON.stringify({
   name: faker.name.firstName() + " " + faker.name.lastName(),
