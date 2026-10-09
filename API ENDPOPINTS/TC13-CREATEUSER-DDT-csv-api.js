@@ -6,7 +6,7 @@ import papaparse from "https://jslib.k6.io/papaparse/5.1.1/index.js";
 
 const BASE_API = "https://gorest.co.in/public/v2/users";
 const TOKEN =
-  "79813c3137460d942bef8d7536435c8bdab5ba3e57b23e24c2b950f911074025";
+  "79813c3137460d9";
 
 export const options = {
   vus: 10,
