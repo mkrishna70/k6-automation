@@ -4,7 +4,7 @@ import { SharedArray } from "k6/data";
 import { scenario } from "k6/execution";
 
 // const TOKEN =
-//   "79813c3137460d942bef8d7536435c8bdab5ba3e57b23e24c2b950f911074025";
+//   "79813c34025";
 //load external JSON test data file using SharedArrays to improve performance
 //SharedArray is more mempry-effiicent then standard JSON.parse because
 //it shares the same memory address among all VUs instead of creaating a copy for each
@@ -41,7 +41,7 @@ export default function postCreateUserAPI() {
 
   const params = {
     headers: {
-      Authorization: `Bearer 79813c3137460d942bef8d7536435c8bdab5ba3e57b23e24c2b950f911074025`,
+      Authorization: `Bearer 79813c325`,
       Accept: "application/json",
       "Content-Type": "application/json",
     },
